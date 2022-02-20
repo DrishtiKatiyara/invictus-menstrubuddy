@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+   <!-- Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com"> 
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com"> 
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu&display=swap" rel="stylesheet">
+
+   <!--CSS-->
+   <link rel="stylesheet" href="/css/style.css">
+
+   <!-- Font awesome -->
+   <!-- <script src="https://kit.fontawesome.com/b50b5c3588.js" crossorigin="anonymous"></script> -->
+   <script src="https://kit.fontawesome.com/7254a5900b.js" crossorigin="anonymous"></script>
+
+
+   <title>MenstruBuddy</title>
+</head>
+
+<body>
+   
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/" style="font-size: xx-large; font-family: 'Ubuntu', sans-serif;  font-style: italic;"><img style="height: 100px !important ;width: 200px !important;"src="/images/logo.jpg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav" >
+                <ul class="navbar-nav ms-auto" style="font-size: large; font-family: 'Ubuntu', sans-serif;  font-style: bold;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="/about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/blog">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="/drives">Upcoming Drives</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="/contact">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <br />
+    <%if(message.length!=0){ %>
+        <div class="query">
+            <h6>
+                <%= message %>
+            </h6>
+        </div>
+   <% } %>
+    <h1 style="
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: bold;
+        color: #ee3e5d;
+        font-size: 50px;
+      ">
+        MenstruBuddy
+    </h1>
+    <br />
+    <h4 style="text-align: center; font-family: 'Ubuntu', sans-serif; font-style: italic;">
+        Live a shame free life!
+    </h4>
+    <br>
+    <div class="row">
+        <div class="column">
+            <p style="
+            text-align: justify;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 20px;
+          ">
+                MenstruBuddy is a humble step towards a shame-free and pain-free menstruation time. We create awareness
+                on different aspects of menstruation for adolescent girls & women through a forum where the individuals
+                can post their experiences, or in general talk about this issue. We shall also be providing the
+                functionality of allowing the individual to connect to a professional in case they want to discuss more
+                about this issue with some experienced person. We have a page specifically dedicated to the ‘Upcoming Drives’ where people can volunteer or even post about any mentruation awareness drive that they might be conducting.
+
+            </p>
+        </div>
+        <div class="column">
+            <img src="/images/1.jpg" alt="Snow" style="width: 80%; margin-left: 10%; margin-top: -10%" />
+        </div>
+    </div>
+
+    <hr style="margin: 20px; height: 5px; color: #ee3e5d" />
+
+    <div class="row">
+        <div class="column">
+            <img src="/images/2.jpg" alt="Snow" style="width: 80%; padding-left: 10%" />
+        </div>
+        <div class="column">
+            <p style="
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: bold;
+        color: #ee3e5d;
+        font-size: 30px;
+      ">
+                Need of the Hour
+        </p>
+
+            <br>
+
+            <p style="
+            text-align: justify;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 20px;
+          ">
+                A lot of people in our country believe that menstrual health and hygiene is not something that can be
+                discussed quite openly. In fact a lot of people believe it to be a taboo , spoken about only in hushed
+                tones. Thus, there is a high need to normalize this concept in the mindsets of the general public. Since
+                proper education about this topic is not given in a lot of schools, girls are forced to learn about it
+                from the internet from a huge variety of sources. Often they are afraid of asking any questions they
+                might have regarding this to anyone. Our research in this matter showed the lack of a centralized system
+                where people could get their doubts answered, get their myths busted, get professional help and so on.
+                Thus, our goal is to create a system that not only gives the right information about menstrual health
+                and hygiene, but also enables the people to talk about their own experiences, difficulties and so on,
+                and ask questions to any professional counselor.
+            </p>
+        </div>
+    </div>
+
+    <hr style="margin: 20px; height: 5px; color: #ee3e5d" />
+
+    <br />
+    <h1 style="
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #ee3e5d;
+        font-style: bold;
+      ">
+        Frequently Asked Questions
+    </h1>
+    <br />
+
+    <div class="container" style="text-align: center">
+        <div class="row">
+            <div class="col-4">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h5 class="card-title">What is Menstruation?</h5>
+                        <p class="card-text">
+                            <img src="/images/menstruation.png" style="width: 60px; height: auto" />
+                            <br /><br>
+                            A woman needs to understand what menstruation is, why it occurs,
+                            and why it is significant. That, too, at the appropriate time,
+                            namely before her first period.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn " style="background-color: #ee3e5d; color: #ffffff;"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Know More
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">
+                                            What is Menstruation?
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Menstruation is also known as "period." A period is a time
+                                            of 2 to 7 days during which a girl or woman's menstrual
+                                            flow occurs, during which blood and tissue exit her body
+                                            through her vagina.</p>
+
+
+                                        <p>What causes this to happen? Each
+                                            month, blood and tissue accumulate in the uterus in
+                                            preparation for a fertilized egg in the case that a woman
+                                            becomes pregnant. (The uterus is the location within a
+                                            woman's body where a baby develops.) If the egg is not
+                                            fertilized, the lining of the uterus exits the body via
+                                            the vagina, and the girl or woman gets her period.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h5 class="card-title">Correct usage & disposal</h5>
+                        <p class="card-text">
+                            <img src="/images/waste.png" style="width: 60px; height: auto" />
+                            <br /><br>
+                            Today, municipal authorities and people are battling the massive amount of menstrual trash
+                            that is being created. We urge people to adopt healthier disposal practices through
+                            discourse.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn  " style="background-color: #ee3e5d ;color: #ffffff;"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                            Know More
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal1" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">
+                                            Correct usage & disposal
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>When you get your period, you'll need to use something to soak up the
+                                            menstrual blood. There are lots of different products out there. It might
+                                            take some experimenting to find what's right for you.
+                                            Mostly used menstrual products are:
+                                            pads (or sanitary napkins)
+                                            tampons
+                                            menstrual cups</p>
+
+
+                                        <p>You can place used menstrual products inside a bag, seal them, and throw them
+                                            in the trash. They will keep you from exposing another person to your bodily
+                                            fluids. Period disposal bags also let you throw away a tampon at a friend's
+                                            house without being embarrassed that they will see what's inside.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h5 class="card-title">Dealing with menstrual pain</h5>
+                        <p class="card-text">
+                            <img src="/images/pain.png" style="width: 60px; height: auto" />
+                            <br /><br>
+                            Women have menstrual discomfort regardless of geography or age. We can
+                            practice tried-and-true Yoga poses to relieve menstruation discomfort.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" style="background-color: #ee3e5d ; color: #ffffff;"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            Know More
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal2" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">
+                                            Dealing with menstrual pain
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>It’s common to feel discomfort around your abdomen, lower back, and thighs
+                                            when you’re menstruating.
+
+                                            During your period, the muscles of your womb contract and relax to help shed
+                                            built-up lining. Sometimes you’ll experience cramps, which means your
+                                            muscles are at work. </p>
+
+
+                                        <p>It sounds odd, but drinking water keeps your body from retaining water and
+                                            helps to avoid painful bloating during menstruation. Warm or hot water is
+                                            usually better for cramps, as hot liquids increase blood flow to your skin
+                                            and may relax cramped muscles.
+                                            Maintaining a healthy diet and keeping up a regular exercise regimen can go
+                                            a long way toward preventing menstrual pain.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="container" style="text-align: center">
+                <br><br><br>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <h5 class="card-title">Myths &Taboos</h5>
+                                <p class="card-text">
+                                    <img src="/images/sexism.png" style="width: 60px; height: auto" />
+                                    <br /><br>
+                                    Lack of gender-sensitive education has resulted in low understanding of puberty,
+                                    menstruation, and reproductive health. The social and emotional fabric of a woman’s
+                                    well-being is deteriorating.
+
+                                    It is high time we set the record straight about menstrual myths.
+                                </p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn " style="background-color: #ee3e5d; color: #ffffff;"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                    Know More
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal3" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel">
+                                                    Myths &Taboos
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Menstruation is a phenomenon unique to girls. However, it has always
+                                                    been surrounded by taboos and myths that exclude women from many
+                                                    aspects of socio-cultural life. In India, the topic has been a taboo
+                                                    until date.</p>
+
+
+                                                <p>As an extension of this impurity argument, women are directed to live
+                                                    in isolation, and not enter the kitchen or the food will be spoilt.
+                                                    In certain cultures, menstruating women are not allowed to hold
+                                                    newborn babies else they might pass them their sickness. All these
+                                                    norms were created by our ancients only to make sure that during the
+                                                    7-day period of blood loss, a woman could get maximum rest. Further,
+                                                    access to hygienic infrastructure is necessary to avoid infections
+                                                    which were a rarity in ancient times.
+
+                                                    To all our menstrual buddies reading this – create your own rules.
+                                                    Maybe you like sipping chamomile tea while reading a book or hogging
+                                                    on a truffle cake while watching a rom-com. Just do what makes you
+                                                    happy!</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <h5 class="card-title">Menstrual Hygiene & Disorders</h5>
+                                <p class="card-text">
+                                    <img src="/images/hospital-sign.png" style="width: 60px; height: auto" />
+                                    <br /><br>
+                                    They are strongly intertwined. As a result, it is critical to stress the importance
+                                    of hygiene and the many approaches to hygiene. In addition, there are other
+                                    approaches to manage the disorders, such as Yoga, lifestyle adjustments, and so on.
+                                </p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn " style="background-color: #ee3e5d; color: #ffffff;"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                    Know More
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal4" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel">
+                                                    Menstrual Hygiene & Disorders
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>It is indeed important to have a society that values and supports the
+                                                    fact that Menstrual Hygiene is vital to the empowerment and
+                                                    well-being of women and girls. As per World Health Organization
+                                                    statistics, India accounts for 27 percent of the world's cervical
+                                                    cancer deaths.</p>
+
+
+                                                <p>PCOD or PCOS is a condition that affects women’s ovaries, the
+                                                    reproductive organs that produce progesterone and estrogen hormones
+                                                    that help in regulating the menstrual cycle and also produce small
+                                                    amount of hormones inhibin, relaxin, and male hormones called
+                                                    androgens.
+
+
+
+                                                    Almost 10% of women in the world is suffering from PCOD. In compare
+                                                    to PCOD women with PCOS produce higher-than-normal amounts of male
+                                                    hormones. This hormone imbalance causes them to skip menstrual
+                                                    periods and makes it harder for them to get pregnant.
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <h5 class="card-title">Individual Roles in Society
+                                </h5>
+                                <p class="card-text">
+                                    <img src="/images/people.png" style="width: 60px; height: auto" />
+                                    <br /><br>
+                                    A single man or woman could make a difference in the lives of the girls and women
+                                    around them. We have been able to encourage individuals to join this movement in
+                                    many ways and make a difference in the society we live in.
+                                </p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn" style="background-color: #ee3e5d; color: #ffffff;"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                    Know More
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal5" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel">
+                                                    Individual Roles in Society
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Let’s not allow menstruating to be a taboo subject that creates
+                                                    stigma, shame, and silence among young girls which will continue
+                                                    into adulthood and increase the cycle of gender inequality. Let’s
+                                                    not force girls to keep their menstruation a secret when they go to
+                                                    school.
+
+                                                    We must take action by providing much-needed products to girls in
+                                                    India and the world. And we must change our attitude too. We have
+                                                    been silent too long! We expect a quiet servitude from girls who are
+                                                    not provided the necessities of life. Are we to believe we are
+                                                    insignificant and useless in the fight to do what is right for any
+                                                    cause, let alone one so private and necessary?</p>
+
+
+                                                <p>Girls in India deserve educational programs that are child-friendly
+                                                    and raise awareness about menstrual hygiene management (MHM). They
+                                                    deserve safe and private sanitation facilities, and a means for safe
+                                                    disposal of menstrual waste. They deserve to be girls thinking about
+                                                    their future, not challenges such as leakage, odor, discomfort, and
+                                                    difficulty concentrating. Through growth and change, the girls of
+                                                    India will finally find cause for celebrating womanhood.
+
+                                                    Period products should be provided in all universities, schools, and
+                                                    colleges. Very soon we must end period poverty!
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+   <!-- Footer -->
+
+   <div class="footer">
+    <div>
+      <h1 class="connect">Happy to Connect</h1>
+      <div class="row icons">
+        <div class="col-lg-3">
+          <i class="fa-solid fa-envelope fa-3x"></i>
+        </div>
+        <div class="col-lg-3">
+          <i class="fa-brands fa-instagram fa-3x"></i>
+        </div>
+        <div class="col-lg-3">
+          <i class="fa-brands fa-facebook-f fa-3x"></i>
+        </div>
+        <div class="col-lg-3">
+          <i class="fa-brands fa-whatsapp fa-3x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <!-- <button type="button" href="/chatBot" class=" floating-btn btn-outline-dark" data-bs-toggle="modal" >
+        ?
+      <!-- <i class="fa-solid fa-message-bot"></i> -->
+      </button> -->
+       <!-- Modal -->
+       <!-- <div class="modal fade" id="chatBot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ask Your Doubts here</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ChatBot soon to be made !
+            </div>
+            
+          </div>
+        </div>
+      </div> -->
+    
+    </div>
+
+  </div>
+
+  
+
+           <div><button type="button" href="/chatBot" class=" floating-btn1 btn-outline-dark" data-bs-toggle="modal" data-bs-target="#NeedHelp">
+            Need Help?
+          <!-- <i class="fa-solid fa-message-bot"></i> -->
+          </button>
+    
+           <!-- Modal -->
+           <div class="modal fade" id="NeedHelp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Ask Your Query Here!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="/askQuery" method="post" id="query">
+                        <div class="mb-3 mod-form">
+                            <span class="input-group-text" >Name</span>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name ="name">
+                        </div>
+                        <div class="mb-3">
+                            <span class="input-group-text">Phone</span>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name ="phone">
+                        </div>
+                        <div class="mb-3">
+                            <span class="input-group-text">Email</span>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name ="email">
+                        </div>
+                        <div class="mb-3">
+                            <span class="input-group-text">Your Query</span>
+                            <textarea class="form-control" aria-label="With textarea" name ="query"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn" style="background-color: #ee3e5d; color: white;">Ask</button>
+                          </div>
+                      </form>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        
+        </div>
+        </div>       
+    
+
+    <!-- <a href="/needHelp" class=" floating-btn1" style="color: white;">Need Help?</a> -->
+
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+                    <script type="text/javascript">
+                        (function(d, m){
+                            var kommunicateSettings = 
+                                {"appId":"1b469b7e06c0c92a8ac5a448be9276350","popupWidget":true,"automaticChatOpenOnNavigation":true};
+                            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+                            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+                            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+                            window.kommunicate = m; m._globals = kommunicateSettings;
+                        })(document, window.kommunicate || {});
+                    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+                    </script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+.navbar-items{
+    padding-left: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif; 
+}
+li{
+    padding-left: 30px;
+}
+
+h6{
+    text-align: center;
+    color: green;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #ee3e5d;
+    padding: 50px;
+    font-size: 54px;
+}
+.contact{
+    background-color: #ee3e5e;
+}
+.footer{
+    margin-top: 30px;
+    height: 250px;
+    background-color: #ee3e5d;
+    /* padding: auto; */
+}
+
+.connect{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.icons{
+    padding-left: 190px;
+    /* padding-right: 70px; */
+    /* margin: 0 auto 0 auto;
+    padding: 0 auto 0 auto; */
+}
+
+@media only screen and (min-width: 600px) {
+   .text2{
+    padding-left: 30px;
+    margin-left: 170px;
+}
+.team_image{
+    text-align: center;
+    margin-left: 100px;
+}
+.icons{
+    
+    text-align: center;
+    /* padding-right: 70px; */
+    /* margin: 0 auto 0 auto;
+    padding: 0 auto 0 auto; */
+}
+.footer{
+    margin-top: 30px;
+    height: 350px;
+    background-color: #ee3e5d;
+
+}
+}
+
+
+  @media only screen and (max-width: 600px){
+    .text2{
+        padding-left: 30px;
+        margin-left: 170px;
+        color: #ee3e5d;
+    }
+    .team_image{
+        text-align: center;
+        margin-left: 5px;
+    }
+    .footer{
+        margin-top: 30px;
+        height: 350px;
+        background-color: #ee3e5d;
+        /* padding: auto; */
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .team_image{
+        text-align: center;
+        /* margin-left: 100px; */
+    }
+  } 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .team_image{
+        text-align: center;
+        
+        
+    }
+    .icons{
+    
+        /* text-align: center; */
+        padding-left: 10px;
+        /* margin: 0 auto 0 auto;
+        padding: 0 auto 0 auto; */
+    }
+  } 
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

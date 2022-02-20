@@ -1,0 +1,166 @@
+.navbar-items{
+    padding-left: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif; 
+}
+li{
+    padding-left: 30px;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #ee3e5d;
+    padding: 50px;
+    font-size: 54px;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+/* img{
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    padding-left: 70px;
+} */
+.image2{
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    /* padding-right: 70px; */
+}
+/* .text2{
+    padding-left: 30px;
+    margin-left: 170px;
+} */
+img{
+    height: 500px !important;
+    width: 500px !important;
+    /* display: block; */
+}
+.image1{
+    height: 500px !important;
+    width: 500px !important;
+    text-align: center;
+    /* padding-left: 10px; */
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: #ee3e5d;
+    /* padding: 50px; */
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.team_image{
+    text-align: center;
+    height: 300px;   
+    margin-bottom: 40px; 
+    width: 350px !important;
+    margin-left: auto;
+}
+.image{
+    
+    text-align: center;
+    /* margin-left: 50px; */
+}
+.image-m{
+    text-align: center;
+    
+}
+
+.footer{
+    margin-top: 30px;
+    height: 250px;
+    background-color: #ee3e5d;
+    /* padding: auto; */
+}
+
+.connect{
+    color: white;
+    font-size: 40px;
+}
+
+.icons{
+    padding-left: 190px;
+    /* padding-right: 70px; */
+    /* margin: 0 auto 0 auto;
+    padding: 0 auto 0 auto; */
+}
+
+@media only screen and (min-width: 600px) {
+   .text2{
+    padding-left: 30px;
+    margin-left: 170px;
+}
+.team_image{
+    text-align: center;
+    margin-left: 100px;
+}
+.icons{
+    
+    text-align: center;
+    /* padding-right: 70px; */
+    /* margin: 0 auto 0 auto;
+    padding: 0 auto 0 auto; */
+}
+.footer{
+    margin-top: 30px;
+    height: 350px;
+    background-color: #ee3e5d;
+
+}
+}
+
+
+  @media only screen and (max-width: 600px){
+    .text2{
+        padding-left: 30px;
+        margin-left: 170px;
+        color: #ee3e5d;
+    }
+    .team_image{
+        text-align: center;
+        margin-left: 80px;
+    }
+    .footer{
+        margin-top: 30px;
+        height: 350px;
+        background-color: #ee3e5d;
+        /* padding: auto; */
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .team_image{
+        text-align: center;
+        margin-left: 300px;
+    }
+  } 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .team_image{
+        text-align: center;
+        margin-left: 170px;
+        
+    }
+    .icons{
+    
+        /* text-align: center; */
+        padding-left: 10px;
+        /* margin: 0 auto 0 auto;
+        padding: 0 auto 0 auto; */
+    }
+  } 
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
